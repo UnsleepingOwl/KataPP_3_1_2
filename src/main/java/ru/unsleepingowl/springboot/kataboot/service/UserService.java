@@ -7,9 +7,9 @@ import ru.unsleepingowl.springboot.kataboot.model.User;
 import java.util.List;
 
 public interface UserService {
-    void add(User user);
-    void delete(Long id);
-    void update(User user, Long id);
-    List<User> listUsers();
+    void addUser(User user);
+    void deleteUser(Long id);
+    void updateUser(User user, Long id);
+    List<User> getUsersList();
     User getUserById(Long id);
 }
